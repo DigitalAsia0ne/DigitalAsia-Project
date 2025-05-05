@@ -1,8 +1,11 @@
 import React from 'react'
+import Footer from './Component/Footer'
 
 function App() {
   return (
-    <div className='text-6xl'>App</div>
+    <div className='text-6xl'>
+      <Footer/>
+    </div>
   )
 }
 
