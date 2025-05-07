@@ -4,6 +4,7 @@ import FAQ from "../component/FAQ.jsx"
 import Price from "../component/Price.jsx"
 import Testimonials from '../component/Testimonials.jsx'
 import Service from '../component/Service.jsx'
+import Navbar from '../component/Navbar.jsx'
 
 
 
@@ -11,6 +12,7 @@ import Service from '../component/Service.jsx'
 function Home() {
   return (
  <>
+ <Navbar />
  <Price />
  <Testimonials />
  <Service />
