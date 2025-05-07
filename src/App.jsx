@@ -1,12 +1,15 @@
-import React from 'react'
-import Footer from './Component/Footer'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './Pages/Home';
 
 function App() {
   return (
-    <div className='text-6xl'>
-      <Footer/>
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
