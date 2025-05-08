@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='bg-black text-white m-auto pt-5'>
+    <div className='bg-black text-white m-auto pt-10'>
         <div className='text-center'>
           <h1 className='text-[#E9C08D] text-5xl'>Saas Delivery <br/> Management Software</h1>
         <div>
