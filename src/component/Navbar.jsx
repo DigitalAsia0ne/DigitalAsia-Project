@@ -25,8 +25,8 @@ const Navbar = () => {
 
         {/* Auth Buttons */}
         <div className="hidden md:flex space-x-2">
-          <Link to="/" className="border border-gray-500 px-4 pr-3 py-1 rounded hover:bg-gray-700">Sign In</Link>
-          <Link to="/" className="bg-[#FF9C1F] hover:bg-[#FF9C1F] px-4 py-1 rounded text-white">Sign Up</Link>
+          <Link to="/login" className="border border-gray-500 px-4 pr-3 py-1 rounded hover:bg-gray-700">Sign In</Link>
+          <Link to="/register" className="bg-[#FF9C1F] hover:bg-[#FF9C1F] px-4 py-1 rounded text-white">Register</Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -49,8 +49,8 @@ const Navbar = () => {
             <Link to="/about" className="hover:text-[#FF9C1F]">About</Link>
           </div>
           <div className="flex flex-col space-y-2 pt-2 px-6 py-4">
-            <Link to="/signin" className="border border-gray-500 px-4 py-1 rounded text-center hover:bg-gray-700">Sign In</Link>
-            <Link to="/signup" className="bg-[#FF9C1F] hover:bg-[#FF9C1F] px-4 py-1 rounded text-white text-center">Sign Up</Link>
+            <Link to="/login" className="border border-gray-500 px-4 py-1 rounded text-center hover:bg-gray-700">Sign In</Link>
+            <Link to="/register" className="bg-[#FF9C1F] hover:bg-[#FF9C1F] px-4 py-1 rounded text-white text-center">Register</Link>
           </div>
         </div>
       )}

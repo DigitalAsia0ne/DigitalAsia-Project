@@ -79,7 +79,7 @@ export default function TestimonialSlider() {
         {visibleTestimonials.map((t, idx) => (
           <div
             key={idx}
-            className="bg-[#171717] gray-400 p-6 rounded-xl w-full md:w-1/3"
+            className="bg-[#171717] gray-400 p-6 rounded-xl w-full md:w-1/3 hover:bg-[#1f1f1f]"
           >
             <div className="flex items-center gap-4 mb-4">
               <div className="w-12 h-12 rounded-full bg-gray-500"></div>

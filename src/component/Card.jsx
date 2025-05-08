@@ -27,7 +27,7 @@ export default function Card() {
   return (
     // py-10 px-4 sm:px-8 lg:px-[10rem]
     // <div className="relative isolate bg-black px-1 py-2 sm:py-3 lg:px-2 ">
-    <div className="relative isolate bg-black px-1 py-2 sm:py-3 lg:px-2  ">
+    <div className="relative isolate bg-black px-1 py-2 sm:py-3 lg:px-2 ">
 
       <div
         aria-hidden="true"
@@ -52,7 +52,7 @@ export default function Card() {
               tier.featured
                 ? "relative bg-[#171717] shadow-xl"
                 : "bg-white/60 sm:mx-6 lg:mx-0",
-              "rounded-2xl p-4 sm:p-5 ring-1 ring-gray-900/10"
+              "rounded-2xl p-4 sm:p-5 ring-1 ring-gray-900/10 hover:bg-[#1f1f1f]"
             )}
           >
             <h3

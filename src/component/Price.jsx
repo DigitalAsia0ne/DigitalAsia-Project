@@ -9,7 +9,8 @@ function price() {
           Start today, with free or premium <br /> plan, you choose
         </h3>
       </div>
-      <div className="flex flex-col md:flex-row   gap-4 justify-center ">
+      <div className="flex flex-col md:flex-row gap-4 justify-between
+ ">
         <div>
           <Card />
         </div>

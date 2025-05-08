@@ -8,6 +8,7 @@ import Navbar from "../component/Navbar.jsx";
 import Hero from "../component/Hero.jsx";
 import Features from "../component/Features.jsx";
 
+
 function Home() {
   return (
     <>
