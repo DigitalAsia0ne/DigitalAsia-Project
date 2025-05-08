@@ -53,7 +53,8 @@ export default function TestimonialSlider() {
   );
 
   return (
-    <div className="bg-black text-white py-10 px-4 md:px-12">
+    // sm:px-8 lg:px-[10rem]
+    <div className="bg-black text-white py-10 px-4 sm:px-8 lg:px-[10rem]">
       <div className="flex justify-between place-items-center ">
         <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-start">
           What Our Customer Says

@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="bg-black px-6 py-4 text-white">
       <div className="flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center pl-10 space-x-2">
+        <div className="flex items-center pl-0 sm:pl-6 space-x-2">
           <img src="https://i.pinimg.com/736x/94/3f/cf/943fcf1ad73de4334e083475d1ab9541.jpg" alt="Logo" className="h-8 w-8" />
           <span className="text-lg font-bold">Element X</span>
         </div>

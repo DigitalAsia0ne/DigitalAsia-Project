@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 function footer() {
   return (
-    <footer className="bg-black text-white py-12">
+    <footer className="bg-black text-white py-10 px-4 sm:px-8 lg:px-[10rem]">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-10 text-sm px-3">
         {/* Headline & Buttons */}
         <div className="md:col-span-2">

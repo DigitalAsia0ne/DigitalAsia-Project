@@ -25,7 +25,10 @@ function classNames(...classes) {
 
 export default function Card() {
   return (
-    <div className="relative isolate bg-black px-1 py-2 sm:py-3 lg:px-2">
+    // py-10 px-4 sm:px-8 lg:px-[10rem]
+    // <div className="relative isolate bg-black px-1 py-2 sm:py-3 lg:px-2 ">
+    <div className="relative isolate bg-black px-1 py-2 sm:py-3 lg:px-2  ">
+
       <div
         aria-hidden="true"
         className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-20 blur-2xl "

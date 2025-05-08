@@ -2,7 +2,9 @@ import React from "react";
 
 function Service() {
   return (
-    <div className="bg-black text-white px-4 py-6 lg:px-29 lg:py-30 ">
+    // <div className="bg-black text-white px-4 py-6 lg:px-29 lg:py-30 ">
+    <div className="bg-black text-white py-10 px-4 sm:px-8 lg:px-[10rem]">
+
       <div className="max-w-[1440px] m-auto flex flex-col md:flex-row items-center justify-between gap-12 ">
         {/* Lift */}
         <div className='"md:w-1/2"'>
